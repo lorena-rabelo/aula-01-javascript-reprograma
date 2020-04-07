@@ -3,7 +3,7 @@
 let valor = parseInt(prompt('Qual o valor do produto?'));
 valor *= 0.05;
 
-alert(`Seu desconto é de: ${valor}`);
+alert(`Seu desconto é de: R$${valor},00.`);
 
 
 // 2. Crie um algoritmo que receba dois valores e exiba o resultado e o resto da divisão entre eles;
@@ -31,7 +31,7 @@ const anos = parseInt(idadeEmDias/365);
 const meses = parseInt((idadeEmDias%365)/30);
 const dias = (idadeEmDias%365)%30;
 
-alert(`Você viveu ${anos} anos, ${meses} meses e ${dias} dias`);
+alert(`Você viveu ${anos} anos, ${meses} meses e ${dias} dias.`);
 
 
 
@@ -52,7 +52,7 @@ const precoSemDesconto = parseFloat(prompt('Qual o preço sem desconto?'));
 let desconto = precoSemDesconto - precoComDesconto;
 desconto = (desconto*100/precoSemDesconto);
 
-alert(`O percentual de desconto do produto é de ${desconto}%`);
+alert(`O percentual de desconto do produto é de ${desconto}%.`);
 
 
 // 7. Zenir é responsável por colocar a duração dos filmes no letreiro do cinema comunitário. A duração deve ser mostrada em minutos, mas alguns dos filmes exibidos vieram com a informação em horas e minutos. Ajude Zenir, ela tem mais o que fazer do que ficar fazendo conta.
@@ -63,7 +63,7 @@ const duracaoMinutos = prompt('Duração em minutos');
 let duracaoTotal = duracaoHoras*60;
 duracaoTotal += parseInt(duracaoMinutos);
 
-alert(`O filme possui a duração de ${duracaoTotal} minutos`);
+alert(`O filme possui a duração de ${duracaoTotal} minutos.`);
 
 // 8. Marisa trabalha como cronometrista numa maratona. O resultado da maratona é dado em horas, minutos e segundos. Marisa precisa converter o resultado para segundos. Ajude Marisa.
 
@@ -80,7 +80,7 @@ let segundos = prompt('Digite a duração em segundos');
 minutos = (horas*60) + minutos; // ou minutos += horas*60;
 segundos = minutos*60 + segundos; // ou segundos += minutos*60
 
-alert(`A duração em segundos é ${segundos}`);
+alert(`A duração em segundos é ${segundos}.`);
 
 
 // Resolução 2
@@ -92,4 +92,4 @@ let segundos01 = prompt('Digite a duração em segundos');
 segundos01 += horas01*3600 + minutos01*60;
 // segundos01 = segundos01 + horas01*3600 + minutos01*60;
 
-alert(`A duração em segundos é ${segundos01}`);
+alert(`A duração em segundos é ${segundos01}.`);
