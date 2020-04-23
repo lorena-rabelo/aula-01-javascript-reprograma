@@ -9,4 +9,4 @@
 * Estruturas Condicionais
 * Estruturas de Repetição
 * Treinando lógica
-### [Semana 02](https://github.com/lorena-rabelo/javascript-reprograma/tree/master/02-javascript)
+### [Semana 02](https://github.com/lorena-rabelo/javascript-reprograma/tree/master/semana-02)
