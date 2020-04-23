@@ -10,3 +10,6 @@
 * Estruturas de Repetição
 * Treinando lógica
 ### [Semana 02](https://github.com/lorena-rabelo/javascript-reprograma/tree/master/semana-02)
+* Arrays
+* Objetos
+* Funções
