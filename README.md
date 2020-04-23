@@ -1,7 +1,7 @@
 # Lógica de Programação com JavaScript
 
 
-### [Semana 01](https://github.com/lorena-rabelo/javascript-reprograma/tree/master/01-javascript)
+### [Semana 01](https://github.com/lorena-rabelo/javascript-reprograma/tree/master/semana-01)
 * Conceitos Básicos
 * Variáveis
 * Tipos de Dados
